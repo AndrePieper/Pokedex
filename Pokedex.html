@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Body.css">
+        <link rel="stylesheet" type="text/css" href="API.css">
+        <link rel="stylesheet" type="text/css" href="Buttons.css">
+        <script src="API.js"></script>
+        <title>Pokedex</title>
+        <link rel="shortcut icon" href="Imagens/pokeball (2).png" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <img src="Imagens/pokemon-png-logo.webp">
+            <h1 class="cabeça">Pokedex</h1>
+            <nav>
+                <a href="https://github.com/AndrePieper"><img src="Imagens/github.png" width="45px"></a>
+                <a href="https://instagram.com/andreluispiper?igshid=MzNlNGNkZWQ4Mg=="><img src="Imagens/instagram (4).png" width="45px"></a>
+                <a href="https://twitter.com/elonmusk"><img src="Imagens/twitter.png" width="45px"></a>
+            </nav>
+        </header>
+        <main>
+            <article>
+                <div class="coluns-article">
+                    <h2 class="title">Oque é uma pokedex</h2>
+                        <p class="text">Uma Pokédex é um dispositivo fictício presente na série de jogos Pokémon, criada pela Nintendo, Game Freak e Creatures. Ela desempenha um papel fundamental nos jogos Pokémon, fornecendo informações sobre várias espécies de Pokémon encontradas no mundo do jogo.</p>
+                        <p class="text">Pokédex é basicamente um catálogo eletrônico de Pokémon, contendo dados sobre as diferentes espécies de Pokémon, como nome, tipo, estatísticas, evoluções, habilidades e outros detalhes relevantes. Geralmente, os jogadores podem consultar a Pokédex para obter informações sobre os Pokémon que capturaram, registrando as informações e atualizando-as à medida que encontram novas espécies.</p>
+                        <p class="text">A ideia por trás da Pokédex é fornecer aos jogadores uma maneira de acompanhar e aprender sobre as diferentes espécies de Pokémon que existem no jogo. Além disso, a Pokédex também costuma fornecer informações sobre a localização dos Pokémon no mundo do jogo e quaisquer condições específicas para a evolução de certas espécies.</p>
+                        <p class="text">A Pokédex é uma parte icônica da franquia Pokémon e tem sido apresentada em vários jogos principais, bem como em adaptações para outras mídias, como séries de televisão, filmes e jogos de cartas colecionáveis.</p>
+                </div>
+                <div class="coluns-article">
+                    <h2 class="title">Como surgiram os Pokémon</h2>
+                        <p class="text">Os Pokémon são criaturas fictícias que foram concebidas e desenvolvidas pela Game Freak, uma empresa japonesa de desenvolvimento de jogos, em colaboração com a Nintendo. A ideia dos Pokémon foi concebida pelo designer de jogos Satoshi Tajiri e pelo ilustrador Ken Sugimori.</p>
+                        <p class="text">A inspiração inicial para os Pokémon veio das experiências de infância de Tajiri, que gostava de explorar a natureza e coletar insetos. Ele queria criar uma experiência de jogo que permitisse às crianças vivenciarem a emoção de capturar e colecionar criaturas, assim como ele fazia com os insetos.</p>
+                        <p class="text">Tajiri e Sugimori trabalharam juntos para desenvolver o conceito dos Pokémon, criando designs únicos para cada espécie e atribuindo-lhes características distintas, habilidades e tipos diferentes. Eles também desenvolveram a premissa de um mundo fictício onde os treinadores de Pokémon viajam, capturam, treinam e batalham com seus Pokémon.</p>
+                        <p class="text">Desde então, a franquia Pokémon expandiu-se para incluir jogos de vídeo, séries de televisão, filmes, jogos de cartas colecionáveis e uma infinidade de mercadorias relacionadas. A cada nova geração de jogos, novos Pokémon são introduzidos, expandindo ainda mais o mundo dos Pokémon.</p>
+                </div>
+            </article>
+        </main>
+        <div class="button-container">
+         <button class="button" onclick="get1gen()">Kanto</button>
+         <button class="button" onclick="get2gen()">Johto</button>
+         <button class="button" onclick="get3gen()">Hoenn</button>
+         <button class="button" onclick="get4gen()">Sinnoh</button>
+         <button class="button" onclick="get5gen()">Unova</button>
+         <button class="button" onclick="get6gen()">Kalos</button>
+         <button class="button" onclick="get7gen()">Alola</button>
+         <button class="button" onclick="get8gen()">Galar</button>
+         <button class="button" onclick="get9gen()">Paldea</button>
+        </div>
+        <div class="pokedex-display-name"></div>
+        <div class="pokedex"></div>
+    </body>
+</html>

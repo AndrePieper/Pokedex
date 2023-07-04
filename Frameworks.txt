@@ -1,0 +1,18 @@
+Frameworks
+	Um framework é uma estrutura de desenvolvimento que fornece um conjunto de ferramentas e padrões para facilitar a criação de software. Ele é como um esqueleto ou um conjunto de blocos de construção que os desenvolvedores podem usar para criar aplicativos.
+
+Requisições de API
+	As requisisções de API servem como uma forma de pedido de informações, onde se é requisitado algumas ou todas as informações que compoem a API e são estuturadas dentro do site ou softwere.
+
+HTTP(Hypertext Transfer Protocol)
+	HTTP é uma forma de requisição de informações e recursos. Exemplo: Um navegador, deseja obter um recurso, ele envia uma requisição HTTP ao servidor que contém informações sobre o recurso desejado, então são enviado as respostas de volta.
+
+Aplicações Web
+	Aplicações Web são programas e softweres que são acessados pela internt usadno um navegador, sem precisar passar pelo processo de instalação dos Apps, alem de serem hospedados em servidores e acessados de qualquer lugar. 
+
+Meu Projeto
+	A ideia surgiu durante uma das aulas que mexemos com a API de pokemom.
+	Primeiro me desafiei a consumir a API e filtrar todas as informações que queria no meu site.
+	Depois disso foi apenas criar uma estrutura basica de apresentação utilizando HTML e CSS.
+	As ferramentas utilizadas foram apenas VsCode e pesquisas na internet como chat gpt e Alura.
+
